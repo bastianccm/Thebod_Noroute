@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Thebod_Noroute>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+            	<Mage_Core />
+            </depends>
+        </Thebod_Noroute>
+    </modules>
+</config>

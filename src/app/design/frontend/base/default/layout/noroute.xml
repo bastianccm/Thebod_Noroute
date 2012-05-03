@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<layout>
+    <noroute>
+        <reference name="root">
+            <action method="setTemplate"><template>noroute/404.phtml</template></action>
+        </reference>
+    </noroute>
+</layout>

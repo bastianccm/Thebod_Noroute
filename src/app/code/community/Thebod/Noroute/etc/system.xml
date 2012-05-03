@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<config>
+    <sections>
+        <web>
+            <groups>
+                <default>
+                    <fields>
+                        <cms_no_route translate="label"  module="cms">
+                            <comment><![CDATA[Set to 'noroute' to enable custom 404 pages.<br/>Default value 'cms/index/noRoute']]></comment>
+                        </cms_no_route>
+                    </fields>
+                </default>
+            </groups>
+        </web>
+    </sections>
+</config>

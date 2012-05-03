@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<config>
+    <frontend>
+        <routers>
+            <noroute>
+                <use>standard</use>
+                <args>
+                    <module>Thebod_Noroute</module>
+                    <frontName>noroute</frontName>
+                </args>
+            </noroute>
+        </routers>
+
+        <layout>
+            <updates>
+                <noroute>
+                    <file>noroute.xml</file>
+                </noroute>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <web>
+            <default>
+                <no_route>noroute</no_route>
+            </default>
+        </web>
+    </default>
+</config>

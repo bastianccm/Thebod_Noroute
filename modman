@@ -1,0 +1,5 @@
+src/app/etc/modules/Thebod_Noroute.xml app/etc/modules/Thebod_Noroute.xml
+src/app/code/community/Thebod/Noroute app/code/community/Thebod/Noroute
+src/app/design/frontend/base/default/layout/noroute.xml app/design/frontend/base/default/layout/noroute.xml
+src/app/design/frontend/base/default/template/noroute app/design/frontend/base/default/template/noroute
+
